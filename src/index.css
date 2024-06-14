@@ -10,3 +10,8 @@ body {
 .App {
   text-align: center;
 }
+
+button {
+  margin: 10px 10px 10px 0;
+  padding: 0px, 10px;
+}
