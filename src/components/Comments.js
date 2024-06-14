@@ -14,7 +14,7 @@ function Comments({comments}) {
   }
 
   const handleDelete = (id) => {
-    setCommentsList(comments.filter(comment => comment.id !== id))
+    setCommentsList(commentsList.filter(comment => comment.id !== id))
   }
 
   const displayComments = () => commentsList.map(comment => {

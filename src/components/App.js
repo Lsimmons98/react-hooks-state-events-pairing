@@ -4,8 +4,6 @@ import Main from './Main.js'
 import Comments from './Comments.js'
 
 function App() {
-  console.log("Here's your data:", video);
-
   return (
     <div className="App">
       <Main video={video}/>
